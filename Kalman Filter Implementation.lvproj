@@ -19,6 +19,10 @@
 		<Item Name="test" Type="Folder" URL="../test">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Draw Estimated Pose.vi" Type="VI" URL="../tool/Draw Estimated Pose.vi"/>
+		<Item Name="Get Dynamical System.vi" Type="VI" URL="../tool/Get Dynamical System.vi"/>
+		<Item Name="Simulate XY Sensor Measurements.vi" Type="VI" URL="../tool/Simulate XY Sensor Measurements.vi"/>
+		<Item Name="XY Localizer Kalman Matrices.vi" Type="VI" URL="../tool/XY Localizer Kalman Matrices.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
